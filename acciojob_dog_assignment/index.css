@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+    min-width:100vw;
+    min-height:100vh;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  height: 17rem;
+  width: 95vw;
+  border: 1px solid black;
+}
+.blog .header{
+    width:100%;
+
+    margin-bottom:20px;
+ 
+    
+}
+.header h1{
+        
+       text-align:start;
+ width:600px;
+padding:10px;
+       text-decoration:underline;
+}
+.blog p{
+    width: 100%;
+    font-size:1.2rem;
+    text-align:start;
+}
+.blog a{
+    text-decoration:underline;
+    color:black;
+
+}
+
+.blog_img{
+    display:flex;
+    flex-direction:column;
+   
+    justify-content:space-evenly;
+   
+    padding:20px;
+    margin:20px;
+    text-align:left;
+  width: 100%;
+    
+   
+
+}
+
+.blog_img h1{
+    text-align:start;
+ margin:20px;
+    text-decoration:underline;
+}
+
+.blog_img img {
+  display: block;
+  margin: 20px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.blog_img a{
+    text-decoration:underline;
+    color:black;
+    margin:20px;
+
+}
+.trivia{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    min-height:20rem;
+    justify-content:space-evenly;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+  width: 100%;
+    
+   
+
+}
+.trivia h1{
+    text-align:start;
+ margin:20px;
+ padding-left:20px;
+    text-decoration:underline;
+
+}
+.trivia ol{
+    padding-left: 50px;
+     height:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
